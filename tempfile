@@ -1,0 +1,17 @@
+#Este eh o Template do arquivo de entrada do problema de 
+#minimizacao para o simplex resolver.
+#Deve ser respeitada a ordem em que os dados aparecem. Os comentarios iniciados com jogo da velha, como esse, sao ignorados.
+
+#Numero de variaveis da funcao objetivo
+4
+#Numero de restricoes do problema
+3
+#Tipo do problema padrao (1 para maximizacao, 0 para minimizacao)
+1
+#Pesos das variaveis da funcao objetivo
+4 5 9 11
+#Restricoes do problema + valores resultado (considera todos como '>=' caso minimizacao e '<=' caso maximizacao)
+1 1 1 1 15
+7 5 3 2 120
+3 5 10 15 100
+
